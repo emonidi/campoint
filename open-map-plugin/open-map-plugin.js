@@ -3,7 +3,7 @@ $.fn.openMap = function (options) {
         selectWrapper,
         searchResults,
         searchButton,
-        searchBaseUrl = 'http://nominatim.openstreetmap.org/search?format=json&q=',
+        searchBaseUrl = 'https://nominatim.openstreetmap.org/search?format=json&q=',
         documentFragment,
         self = this,
         onLocationAddedCallback,
@@ -141,7 +141,7 @@ $.fn.openMap = function (options) {
                 'EPSG:3857'
             ),
             offset:[-20,-40],
-            element: $('<img src="http://icon-park.com/imagefiles/location_map_pin_light_blue6.png" style="width:40px;">')[0]
+            element: $('<img src="../img/location_map_pin_light_blue6.png" style="width:40px;">')[0]
         }));
     }
 
