@@ -1,0 +1,44 @@
+.navbar{
+    margin-bottom: 0px;
+    border-radius: 0;
+}
+
+input{
+    outline: none;
+    border: none !important;
+    -webkit-box-shadow: none !important;
+    -moz-box-shadow: none !important;
+    box-shadow: none !important;
+}
+
+.container{
+    margin:50px 0 0 0;
+    padding:0;
+}
+
+.navbar{
+    background: #2196F3;
+}
+
+.locations-list{
+    list-style: none;
+    width: 100%;
+    padding:0;
+}
+
+.locations-list li{
+    background: #e5e5ee;
+    color: #112233;
+    display: block;
+    padding:10px;
+    border-bottom:solid 1px #112233;
+}
+
+.locations-list li a{
+    padding: 10px;
+    display:block;
+}
+
+.no-padding{
+    padding:0;
+}
